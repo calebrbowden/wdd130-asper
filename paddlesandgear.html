@@ -5,9 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        #id {
+            background-color: #F9FAFB;
+        }
 
+        .product_container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            gap: 10px;
+            margin: 50px 50px;
+            justify-content: center;
+        }
 
-        
+        .imgproduct_container {
+            width: 25vw;
+            border-radius: 50px;
+            box-shadow: 5px 5px 10px 2px #1E3A8A;
+        }
+
+        .product_name_and_button_container {
+            margin: auto 0;
+            text-align: center;
+        }
+
+        .product_description_container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .product_description {
+            font-size: 2.25vw;
+            color: #1E3A8A;
+        }
+
+        .product_name {
+            font-size: 5vw;
+
+        }
+
+        .product_name {
+            margin: 5;
+            margin-bottom: 50px;
+            margin-top: 5px;
+            color: #1E3A8A;
+        }
+
+        .product_button {
+            background-color: transparent;
+            padding: 15px;
+            border-radius: 15px;
+            color: #1E3A8A;
+            border-color: #1E3A8A;
+        }
+
+        .line {
+            height: 1.5px;
+            border: none;
+            background-color: #1E3A8A;
+            margin: 0;
+            width: 90%;
+            margin: 0 auto;
+        }
+
     </style>
 
 </head>
@@ -16,21 +76,125 @@
 
     </header>
 
-    <main>
-        <div class="product_container">
+    <main id="main_paddlesandgear">
+
+        <hr class="line">
+
+        <div id="product1" class="product_container">
             <div class="image_product_containter">
-                <img class="product_container" src="" alt="">
+                <img class="imgproduct_container" src="images_adam/Selkirk.jpg" alt="pickleball paddle">
             </div>
             <div class="product_name_and_button_container">
-                <h2 class="product_name"></h2>
-                <button class="product_button"></button>
+                <h2 class="product_name">Selkirk</h2>
+                <button class="product_button">View Product</button>
             </div>
             <div class="product_description_container">
                 <p class="product_description">
-                    
+                    Selkirk is one of the most popular and trusted pickleball brands. They’re known for 
+their premium materials, great control, and long-lasting construction. Many 
+competitive players use their paddles.
                 </p>
             </div>
         </div>
+
+        <hr class="line">
+
+        <div id="product2" class="product_container">
+            <div class="image_product_containter">
+                <img class="imgproduct_container" src="images_adam/JOOLA.jpg" alt="pickleball paddle">
+            </div>
+            <div class="product_name_and_button_container">
+                <h2 class="product_name">JOOLA</h2>
+                <button class="product_button">View Product</button>
+            </div>
+            <div class="product_description_container">
+                <p class="product_description">
+                   JOOLA makes powerful, spin-friendly paddles. They became extremely popular after 
+partnering with pro player Ben Johns. Their paddles often use carbon fiber and 
+advanced technology for better performance. 
+                </p>
+            </div>
+        </div>
+
+        <hr class="line">
+
+        <div id="product3" class="product_container">
+            <div class="image_product_containter">
+                <img class="imgproduct_container" src="images_adam/Onix.jpg" alt="pickleball paddle">
+            </div>
+            <div class="product_name_and_button_container">
+                <h2 class="product_name">Onix</h2>
+                <button class="product_button">View Product</button>
+            </div>
+            <div class="product_description_container">
+                <p class="product_description">
+                    Onix is widely used among casual and competitive players. Their paddles tend to be 
+powerful and durable, making them good for hard hitters and players who like 
+aggressive shots
+                </p>
+            </div>
+        </div>
+
+        <hr class="line">
+
+        <div id="product4" class="product_container">
+            <div class="image_product_containter">
+                <img class="imgproduct_container" src="images_adam/CRBN.jpg" alt="pickleball paddle">
+            </div>
+            <div class="product_name_and_button_container">
+                <h2 class="product_name">CRBN</h2>
+                <button class="product_button">View Product</button>
+            </div>
+            <div class="product_description_container">
+                <p class="product_description">
+                    CRBN paddles are known for their carbon fiber surfaces that create excellent spin. 
+Many advanced players love this brand for its blend of power and control.
+                </p>
+            </div>
+        </div>
+
+        <hr class="line">
+
+        <div id="product5" class="product_container">
+            <div class="image_product_containter">
+                <img class="imgproduct_container" src="images_adam/Friday.jpg" alt="pickleball paddle">
+            </div>
+            <div class="product_name_and_button_container">
+                <h2 class="product_name">Friday</h2>
+                <button class="product_button">View Product</button>
+            </div>
+            <div class="product_description_container">
+                <p class="product_description">
+                    Friday is known for offering affordable, high-quality paddles with carbon fiber 
+surfaces and good spin. Their paddles are USA Pickleball approved and come with a 
+99-day happiness guarantee. They’re popular for being lightweight, grippy, and 
+budget-friendly.
+                </p>
+            </div>
+        </div>
+
+        <hr class="line">
+
+        <div id="product6" class="product_container">
+            <div class="image_product_containter">
+                <img class="imgproduct_container" src="images_adam/Ronbus.jpg" alt="pickleball paddle">
+            </div>
+            <div class="product_name_and_button_container">
+                <h2 class="product_name">Ronbus</h2>
+                <button class="product_button">View Product</button>
+            </div>
+            <div class="product_description_container">
+                <p class="product_description">
+                    Ronbus is a growing pickleball brand known for its raw carbon surfaces and advanced 
+engineering. Their paddles offer great spin, solid control, and a modern thermoformed 
+design similar to high-end paddles — but usually at a more affordable price. Players 
+like Ronbus for its quality, durability, and value.
+                </p>
+            </div>
+        </div>
+
+                <hr class="line">
+
     </main>
 
     <footer>
